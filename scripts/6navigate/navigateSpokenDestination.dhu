@@ -1,0 +1,13 @@
+sleep 5
+tap 45 460 
+ sleep 1
+ screenshot maps.png
+ sleep 5 
+
+ mic begin 
+ sleep 3
+ mic play ./boulder.wav
+ sleep 9
+
+
+exit

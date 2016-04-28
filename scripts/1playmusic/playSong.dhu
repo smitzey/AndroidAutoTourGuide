@@ -1,0 +1,20 @@
+sleep 5
+tap  580  460
+ sleep 1
+ screenshot 1music.png
+ sleep 5 
+
+tap 50 50 
+ sleep 2
+ screenshot 2music_drawer.png
+ sleep 5
+
+tap 160 180 
+ sleep 2 
+ screenshot 3music_recent.png
+ sleep 5
+ tap 160 280 
+ sleep 3
+ screenshot 4play_recent.png
+ sleep 21 
+exit

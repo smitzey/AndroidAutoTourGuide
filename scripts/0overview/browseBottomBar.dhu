@@ -1,0 +1,22 @@
+sleep 5
+tap 45 460 
+ sleep 1
+ screenshot maps.png
+ sleep 5 
+tap  180  460
+ sleep 1
+ screenshot phone.png
+ sleep 5
+tap  400  460
+ sleep 1
+ screenshot home.png
+ sleep 5 
+tap  580  460
+ sleep 1
+ screenshot music.png
+ sleep 5 
+tap  750  460
+ sleep 1
+ screenshot native.png
+ sleep 5 
+exit
