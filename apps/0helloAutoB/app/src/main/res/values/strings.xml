@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloAutoB</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_description">This app sets up an  Alarm that originates a notification. Touch the alarm button at the bottom to trigger the alarm after 3 minutes</string>
+</resources>
