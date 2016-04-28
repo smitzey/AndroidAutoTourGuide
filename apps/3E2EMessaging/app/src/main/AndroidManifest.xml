@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidautobook.messaginge2e">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".AlarmSetterActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".MyAlarmBroadcastReceiver"
+            >
+        </receiver>
+
+        <receiver
+            android:name=".MessageReadBroadcastReceiver">
+            <intent-filter>
+                <action android:name="info.androidautobook.messaginge2e.ACTION_READ" />
+            </intent-filter>
+        </receiver>
+
+
+        <receiver
+            android:name=".MessageReplyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="info.androidautobook.messaginge2e.REPLY_ACTION" />
+            </intent-filter>
+        </receiver>
+
+
+
+
+        <meta-data android:name="com.google.android.gms.car.application"
+            android:resource="@xml/automotive_app_desc"/>
+
+
+    </application>
+
+</manifest>

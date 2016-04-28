@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MessagingE2E</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_description">Messaging End to End</string>
+</resources>
