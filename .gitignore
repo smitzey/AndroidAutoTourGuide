@@ -25,8 +25,7 @@ proguard/
 
 # Log Files
 *.log
-/reference/
-/apps/WORKS1helloAutoA/.nb-gradle/
+
 # iml files
 *.iml
 etc
