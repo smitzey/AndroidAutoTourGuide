@@ -6,6 +6,9 @@ by [Sanjay M. Mishra ](https://plus.google.com/+SanjayMishra369) | [ Linkedin ](
 The source code has the following directory structure :
 
 	scripts      -- DHU scripts
+	               0overview
+                       1playmusic  
+                       6navigate
 
 	apps       -- Android, Android Auto apps
 
