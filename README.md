@@ -10,7 +10,14 @@ The source code has the following directory structure :
 			1playmusic
 			6navigate
 
-	apps       -- Android, Android Auto apps
+	apps -- Android, Android Auto apps
+			0helloAutoB
+			1helloAutoA
+			2helloAutoA_prod
+			3E2EMessaging 
+			7muziKar0
+			7muziKar1 
+			_9detectAutoConnection
 
 
 ## Notes
