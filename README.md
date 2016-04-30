@@ -5,13 +5,10 @@ by [Sanjay M. Mishra ](https://plus.google.com/+SanjayMishra369) | [ Linkedin ](
 #Source code for book
 The source code has the following directory structure :
 
-	wear      -- Android Wear App code samples
+	scripts      -- DHU scripts
 
-	fit       -- Google Fit App code samples
+	apps       -- Android, Android Auto apps
 
-	handheld  -- phone and tablet, versions Lollipop(5.x) and Marshmallow(6.x) App code samples
-	
-	misc      -- scripts and utilities 
 
 ## Notes
 The sample code is targeted to Android 6/ API 23/ Marshmallow. Each application project has a README file that lists the steps and open issues with the sample, if any.
