@@ -5,7 +5,7 @@ by [Sanjay M. Mishra ](https://plus.google.com/+SanjayMishra369) | [ Linkedin ](
 #Source code for book
 The source code has the following directory structure :
 
-	scripts      -- DHU scripts
+	scripts -- DHU scripts
 			0overview
 			1playmusic
 			6navigate
